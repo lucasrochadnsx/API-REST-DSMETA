@@ -31,7 +31,7 @@ public class SecutiryConfig {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration().applyPermitDefaultValues();
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "https://69d30f8e7c89b06b2d377b05--apirestds.netlify.app/"));
+        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "hhttps://apirestds.netlify.app/"));
         configuration.setAllowedMethods(Arrays.asList("POST", "GET", "PUT", "DELETE", "OPTIONS"));
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", configuration);
