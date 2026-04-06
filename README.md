@@ -1,4 +1,4 @@
-# 🚀 DS Meta - Sistema de Vendas
+# 🚀 DS Meta - 
 
 Aplicação fullstack para visualização e gerenciamento de dados de
 vendas, com backend em Spring Boot e frontend em React.
